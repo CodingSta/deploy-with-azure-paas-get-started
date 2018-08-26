@@ -17,8 +17,7 @@ RUN pip3 install -r requirements.txt
 
 EXPOSE 80
 
-CMD ["uwsgi", "--plugins", "http,python", \
-              "--http", "0.0.0.0:80", \
+CMD ["uwsgi", "--http", "0.0.0.0:80", \
               "--wsgi-file", "/code/askdjango/wsgi.py", \
               "--master", \
               "--die-on-term", \
