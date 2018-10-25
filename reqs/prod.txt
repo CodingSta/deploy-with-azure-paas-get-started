@@ -4,5 +4,5 @@ uwsgi
 psycopg2
 
 django-storages
-azure-storage==0.20.3
-
+azure
+cffi
