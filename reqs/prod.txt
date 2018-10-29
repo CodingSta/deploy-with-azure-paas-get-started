@@ -3,6 +3,4 @@
 uwsgi
 psycopg2
 
-django-storages
-azure
-cffi
+django-storages-azure==1.6.8
